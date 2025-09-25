@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# Virtual env
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App/runtime
+.tmp_uploads/
+artifacts/
+logs/
+
+# Data
+sample_data/resumes/
+*.pdf
+*.docx
+*.txt
+
+# Streamlit
+.streamlit/
+
+# Model and cache
+*.joblib
+*.npy
+cache/
+
